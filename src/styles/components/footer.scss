@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #143bc2;
+
+  color: #ffffff;
+  padding: 5rem 0;
+
+  &__container {
+    display: flex;
+  }
+  &__copyright {
+    padding-top: 3rem;
+  }
+
+  &__logo {
+    font-family: Qahiri;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0.0025em;
+    color: #ffffff;
+    flex: 1;
+    margin-left: 3.125rem;
+  }
+  &__nav {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    &--links {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 1rem;
+      &:last-child {
+        flex: 2;
+      }
+    }
+  }
+}

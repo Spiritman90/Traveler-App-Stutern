@@ -1,0 +1,101 @@
+// .paradise {
+//   // height: 100%;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: right;
+//   // width: 100%;
+//   // height: 30rem;
+// }
+
+.paradise {
+  display: flex;
+  flex: 2;
+  margin-top: 3rem;
+
+  &__find {
+    background-color: white;
+    height: 27.875rem;
+    width: 28.563rem;
+    border-radius: 0.5rem;
+    margin-top: 18rem;
+    margin-left: 3.125rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+    &--heading {
+      color: #003680;
+      font-family: Poppins;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 1.375rem;
+      letter-spacing: 0.0075em;
+      text-align: left;
+      margin-top: -1rem;
+      margin-left: 7rem;
+    }
+    &--tropicana {
+      height: 4.813rem;
+      width: 24.5rem;
+      border-radius: 0.5rem;
+      display: flex;
+      margin: 2rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    }
+    &--icon {
+      background-color: #dce4ef;
+      height: 2.563rem;
+      top: 18.000091552734375px;
+      border-radius: 0.5rem;
+      padding: 0.625rem;
+      margin-left: -1rem;
+      margin-top: 1rem;
+    }
+
+    &--text {
+      margin-top: 15rem;
+      margin-left: 2rem;
+    }
+
+    &--heading2 {
+      font-family: Poppins;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 3.813rem;
+      letter-spacing: 0.0125em;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+
+    &--button {
+      border-radius: 0.5rem;
+      padding: 15px 30px 15px 30px;
+      background-color: #f56e1e;
+      color: #fff;
+      margin-right: 1rem;
+      font-weight: bold;
+    }
+
+    &--tropicana p {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.375rem;
+      letter-spacing: 0.0025em;
+      text-align: left;
+      display: grid;
+      place-items: center;
+      margin-left: 1rem;
+    }
+
+    &--tropicana:last-child {
+      background-color: #143bc2;
+      margin-top: -1rem;
+      .icon {
+        margin: auto;
+      }
+    }
+  }
+}

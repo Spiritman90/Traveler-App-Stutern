@@ -1,0 +1,24 @@
+.popular__container {
+  margin-top: 3rem;
+  margin: 3.125rem;
+}
+
+.popular__heading {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.375rem;
+  letter-spacing: 0.0175em;
+}
+
+.popular__hotels {
+  display: flex;
+  &--photo {
+    margin: 0.25rem;
+  }
+}
+
+.arrow {
+  display: inline-block;
+}
