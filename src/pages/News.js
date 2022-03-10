@@ -25,7 +25,12 @@ function News() {
       <p className='news__text'> {newItem?.description}</p>
       <p>Author: {newItem?.author ? newItem.author : "Adewole Femi"}</p>
       <p> Published at: {newItem?.published_at}</p>
-      <a href={newItem?.url} target='_blank' className='news__link'>
+      <a
+        href={newItem?.url}
+        target='_blank'
+        rel='noreferrer'
+        className='news__link'
+      >
         Read full story...
       </a>
     </div>

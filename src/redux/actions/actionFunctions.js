@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import { ActionTypes } from "../constants/action-types";
 
 export const getWeatherSuccess = (data) => ({
