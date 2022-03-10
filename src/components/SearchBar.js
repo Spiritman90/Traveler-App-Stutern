@@ -52,10 +52,10 @@ function SearchBar() {
         dispatch({ type: ActionTypes.FETCH_DATA_START });
         try {
           const response = await axios.get(
-            `https://cors-anywhere.herokuapp.com/http://api.mediastack.com/v1/news?&keywords=${userDestination}&countries=us&access_key=32c27fccc816c98ac67d7bf8b702935d`
+            `https://newsdata.io/api/1/news?apikey=pub_485704ff05edfdaadd7c5c5cc82ec1222110&q=${userDestination}`
           );
 
-          dispatch(getNewsSuccess(response?.data.data));
+          dispatch(getNewsSuccess(response?.data.results));
 
           console.log(response);
         } catch (error) {

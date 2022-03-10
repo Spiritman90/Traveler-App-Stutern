@@ -61,8 +61,8 @@ function Weather() {
                 <div className='weather-card'>
                   <img
                     src={
-                      news?.image
-                        ? news.image
+                      news?.image_url
+                        ? news.image_url
                         : "https://namagic.com/wp-content/uploads/2020/10/news.jpg"
                     }
                     alt='random'

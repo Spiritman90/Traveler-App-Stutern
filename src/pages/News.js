@@ -15,18 +15,18 @@ function News() {
       <h1 className='news__title'>{newItem?.title}</h1>
       <img
         src={
-          newItem?.image
-            ? newItem.image
+          newItem?.image_url
+            ? newItem.image_url
             : "https://namagic.com/wp-content/uploads/2020/10/news.jpg"
         }
         alt='news'
         className='news__photo'
       />
       <p className='news__text'> {newItem?.description}</p>
-      <p>Author: {newItem?.author ? newItem.author : "Adewole Femi"}</p>
-      <p> Published at: {newItem?.published_at}</p>
+      <p>Author: {newItem?.creator[0] ? newItem.creator : "Adewole Femi"}</p>
+      <p> Published at: {newItem?.pubDate}</p>
       <a
-        href={newItem?.url}
+        href={newItem?.link}
         target='_blank'
         rel='noreferrer'
         className='news__link'
