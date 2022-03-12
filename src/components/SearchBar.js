@@ -60,7 +60,6 @@ function SearchBar() {
           console.log(response);
         } catch (error) {
           dispatch(getNewsError(error.message));
-          console.log(error.message);
         }
       };
 

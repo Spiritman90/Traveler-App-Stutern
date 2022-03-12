@@ -23,7 +23,7 @@ function News() {
         className='news__photo'
       />
       <p className='news__text'> {newItem?.description}</p>
-      <p>Author: {newItem?.creator[0] ? newItem.creator : "Adewole Femi"}</p>
+      <p>Author: {newItem?.creator ? newItem.creator : "Adewole Femi"}</p>
       <p> Published at: {newItem?.pubDate}</p>
       <a
         href={newItem?.link}
