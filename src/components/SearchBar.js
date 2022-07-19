@@ -40,8 +40,6 @@ function SearchBar() {
           );
 
           dispatch(getWeatherSuccess(response?.data));
-
-          console.log(response);
         } catch (error) {
           dispatch(getWeatherError(error.message));
           console.log(error.message);
@@ -56,8 +54,6 @@ function SearchBar() {
           );
 
           dispatch(getNewsSuccess(response?.data.results));
-
-          console.log(response);
         } catch (error) {
           dispatch(getNewsError(error.message));
         }
@@ -87,7 +83,6 @@ function SearchBar() {
         try {
           const response = await axios.get(recreationalURL, options);
           dispatch(getRecreationSuccess(response?.data.data));
-          console.log(response);
         } catch (error) {
           dispatch(getRecreationError(error.message));
           console.log(error.message);

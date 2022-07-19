@@ -18,19 +18,13 @@ function Header() {
               style={{
                 fontWeight: "500",
                 marginLeft: "10rem",
-                fontSize: "1.5rem",
+                fontSize: "1rem",
               }}
             >
               {" "}
               Home
             </Link>
           </li>
-          {/* <li className='nav__links--item'>
-            <Link to='/recreation'>Recreation Centers</Link>
-          </li>
-          <li className='nav__links--item'>
-            <Link to='/travel'>Travel Advice</Link>
-          </li> */}
         </ul>
       </nav>
       <SearchBar />

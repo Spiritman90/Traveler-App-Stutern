@@ -9,11 +9,6 @@ function Weather() {
   const destinationWeather = useSelector((state) => state.travelWeatherData);
   const newsInfo = useSelector((state) => state.travelNewsData);
   const attractionInfo = useSelector((state) => state.travelRecreationalData);
-  // const error = useSelector((state) => state.error);
-  // const isError = useSelector((state) => state.isError);
-  // const isLoading = useSelector((state) => state.isLoading);
-
-  console.log(attractionInfo);
 
   return (
     <div className='weather-section'>
@@ -69,8 +64,8 @@ function Weather() {
                     className='random'
                   />
                   <div className='weather-content'>
-                    <h4>{news?.title.slice(0, 40)}...</h4>
-                    <p>{news?.description.slice(0, 35)}</p>
+                    <h4>{news?.title?.slice(0, 40)}...</h4>
+                    <p>{news?.description?.slice(0, 35)}</p>
                   </div>
                 </div>
               </Link>

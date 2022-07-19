@@ -8,7 +8,6 @@ function News() {
   const newItem = travelNews.find((data) => {
     return data.title === params.newsId;
   });
-  console.log(newItem);
 
   return (
     <div className='news__container'>

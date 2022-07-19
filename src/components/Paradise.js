@@ -44,17 +44,7 @@ function Paradise() {
           </div>
         </div>
 
-        <div
-          className='paradise__find--photo'
-          style={{
-            backgroundImage: `url(${paradiseImage})`,
-            width: "53.063rem",
-            height: "38.813",
-            marginTop: "10rem",
-            marginLeft: "2rem",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
+        <div className='paradise__find--photo'>
           <div className='paradise__find--text'>
             <h2 className='paradise__find--heading2'>
               Paradise <br /> on Earth

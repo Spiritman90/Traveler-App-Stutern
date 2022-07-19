@@ -3,12 +3,7 @@ import HeroImage from "../assets/newhero.png";
 
 function Hero() {
   return (
-    <div
-      className='hero'
-      style={{
-        backgroundImage: `url(${HeroImage})`,
-      }}
-    >
+    <div className='hero'>
       <div className='hero__container'>
         <h1 className='hero__header'>
           Discover the <span>world</span>
