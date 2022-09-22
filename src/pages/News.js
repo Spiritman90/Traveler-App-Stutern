@@ -16,7 +16,7 @@ function News() {
         src={
           newItem?.image_url
             ? newItem.image_url
-            : "https://namagic.com/wp-content/uploads/2020/10/news.jpg"
+            : "https://unsplash.com/s/photos/random"
         }
         alt='news'
         className='news__photo'
